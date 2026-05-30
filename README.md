@@ -157,7 +157,7 @@ This project is licensed under the MIT License.
 
 <div align="center">
 
-### Your Name
+###om  prakash mahakul
 
 <p>
   <a href="https://github.com/yourusername">
