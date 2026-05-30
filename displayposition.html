@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display-Position</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .Box{
+            display: inline-block;
+            border: 3px solid black;
+            background-color: khaki;
+            color: red;
+            text-align: center;
+            width: 120px;
+            height: 120px;
+            margin: 15px ;
+        }
+        .container
+        {
+            height: 14444px;
+        }
+        #box-2
+        {
+            position: fixed;
+            left:544px;
+            bottom: 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Box" id="box-1">Card-1</div>
+        <div class="Box" id="box-2">Card-2</div>
+        <div class="Box" id="box-3">Card-3</div>
+        <div class="Box" id="box-4">Card-4</div>
+        <!-- It Defines how and where the html elements behaves in a webpage.. -->
+    </div>
+</body>
+</html>
